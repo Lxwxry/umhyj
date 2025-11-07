@@ -1,0 +1,11 @@
+<Window x:Class="ThreadSyncDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Thread Synchronization" Height="250" Width="400">
+    <StackPanel Margin="20">
+        <Button Content="Start Data Race" Click="StartRace_Click" Margin="0,5"/>
+        <Button Content="Start Safe Add" Click="StartSafe_Click" Margin="0,5"/>
+        <Button Content="Check Monitor with Timeout" Click="CheckMonitor_Click" Margin="0,5"/>
+        <TextBlock x:Name="ResultText" Margin="10" FontSize="16"/>
+    </StackPanel>
+</Window>

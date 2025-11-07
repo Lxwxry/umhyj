@@ -1,0 +1,9 @@
+<Window x:Class="ProducerConsumerDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Producer-Consumer" Height="250" Width="400">
+    <StackPanel Margin="20">
+        <Button Content="Start" Click="Start_Click" Margin="0,5"/>
+        <TextBlock x:Name="LogText" FontSize="14" TextWrapping="Wrap"/>
+    </StackPanel>
+</Window>
